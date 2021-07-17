@@ -25,7 +25,7 @@ jobs:
       with:
         name: robbyawaldi/react-with-actions/react-actions
         registry: docker.pkg.github.com
-        username: ${{ secrets.GITHUB_USERNAME }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
         dockerfile: Dockerfile-prod
         tags: latest
